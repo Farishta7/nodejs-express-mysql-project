@@ -1,0 +1,50 @@
+main {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+body {
+        background-color: #4caf4f6a;
+
+}
+
+table {
+    margin: 30px auto;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: #f9f5f5ff;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.button, .delete-row-btn, .edit-row-btn {
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+#name-input, #search-input, #update-name-input {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #297c2d;
+}

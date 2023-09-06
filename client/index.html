@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <title>CRUD Application</title>
+</head>
+<body>
+    <main>
+        <div>
+            <input type="text" id="name-input" placeholder="New employee name ...">
+            <button id="add-name-btn" class="button" >Add Name</button>
+        </div>
+
+        <br><br><br>
+        <div style="align-items: center;">
+            <input placeholder="Search by name" id="search-input">
+            <button id="search-btn" class="button">Search Name</button>
+        </div>
+        <p id="text" style="font-size:xx-large;">Employees Data</p>
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date Added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <section hidden id="update-row">
+            <input type="text" id="update-name-input" placeholder="New updated name ...">
+            <button id="update-row-btn" class="button">Update</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
